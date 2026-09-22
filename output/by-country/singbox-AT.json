@@ -14,23 +14,6 @@
     {
       "type": "vless",
       "tag": "🇦🇹 奥地利 (Austria) 02 - xiaohe",
-      "server": "50.7.184.190",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "austria-dedic1.failspace.top",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇹 奥地利 (Austria) 03 - xiaohe",
       "server": "152.53.1.40",
       "server_port": 443,
       "uuid": "edde565e-41f5-400e-84ea-7b87a3e84488",
@@ -40,13 +23,25 @@
         "server_name": "at.quattro-tech.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
           "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
           "short_id": "43dcff53849b81e6"
         }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇦🇹 奥地利 (Austria) 03 - xiaohe",
+      "server": "86.106.119.23",
+      "server_port": 443,
+      "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
+      "tls": {
+        "enabled": true,
+        "server_name": "gr.freeguard.org",
+        "insecure": false
       }
     },
     {

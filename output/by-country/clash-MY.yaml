@@ -5,17 +5,43 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
-  server: my2.miyazono-kaori.com
-  port: 443
+  server: jpzzqqnzdbgwhbhzsrgh.cfooov.xyz
+  port: 16967
   udp: true
   type: vless
-  uuid: e125bbfe-1307-471d-b21c-c1afe0c1de98
+  uuid: edc17c6e-bb58-4a98-a4a8-ca37aa8b56d2
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: R6q8qhMxgq3ynJPUgudaRkcDXj0qgoc_UU1N0SWGLwM
-    short-id: ed77ac35a310
-  servername: www.setel.com
+    public-key: zCNI8OUsvp6NKt52Z_93OoqegAjbVjzP2tHGXd3cQjM
+    short-id: 0888830f7006f1
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+- name: 🇲🇾 马来西亚 (Malaysia) 02 - xiaohe
+  server: sczznmbbbzgwlwzdhsql.jiedddym.com
+  port: 31378
+  udp: true
+  type: vless
+  uuid: edc17c6e-bb58-4a98-a4a8-ca37aa8b56d2
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: zCNI8OUsvp6NKt52Z_93OoqegAjbVjzP2tHGXd3cQjM
+    short-id: 0888830f7006f1
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+- name: 🇲🇾 马来西亚 (Malaysia) 03 - xiaohe
+  server: clhkzzzdbgwxxndnlm.cfooov.xyz
+  port: 60507
+  udp: true
+  type: vless
+  uuid: edc17c6e-bb58-4a98-a4a8-ca37aa8b56d2
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: zCNI8OUsvp6NKt52Z_93OoqegAjbVjzP2tHGXd3cQjM
+    short-id: 0888830f7006f1
+  servername: addons.mozilla.org
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
@@ -23,11 +49,15 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
+  - 🇲🇾 马来西亚 (Malaysia) 02 - xiaohe
+  - 🇲🇾 马来西亚 (Malaysia) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
+  - 🇲🇾 马来西亚 (Malaysia) 02 - xiaohe
+  - 🇲🇾 马来西亚 (Malaysia) 03 - xiaohe
 rules:
 - MATCH,PROXIES
