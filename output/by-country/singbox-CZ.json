@@ -5,16 +5,13 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - xiaohe",
-      "server": "151.101.65.57",
-      "server_port": 80,
-      "uuid": "66fc196d-3623-4ba5-92ae-101a069af5b1",
+      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
+      "server": "153.76.185.86",
+      "server_port": 3090,
+      "uuid": "b55a33d7-83ee-416a-971e-eaaa0c928043",
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "simorghtrr.global.ssl.fastly.net"
-        }
+        "type": "grpc",
+        "service_name": "vless"
       }
     },
     {
@@ -22,14 +19,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
