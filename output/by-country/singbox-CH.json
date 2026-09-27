@@ -4,15 +4,17 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 01 - xiaohe",
-      "server": "140.238.213.114",
-      "server_port": 50160,
-      "password": "84a506ca5aca505696a454d828420b3f",
-      "tls": {
-        "enabled": true,
-        "server_name": "140.238.213.114",
-        "insecure": true
+      "server": "108.162.198.178",
+      "server_port": 2095,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
       }
     },
     {
@@ -27,7 +29,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
@@ -39,12 +41,12 @@
     {
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
-      "server": "77.110.104.238",
-      "server_port": 443,
-      "password": "5413edfb-08d6-4fba-b51c-809c04feb127",
+      "server": "140.238.213.114",
+      "server_port": 50160,
+      "password": "84a506ca5aca505696a454d828420b3f",
       "tls": {
         "enabled": true,
-        "server_name": "ch2-hy2.veilvpn.life",
+        "server_name": "140.238.213.114",
         "insecure": true
       }
     },
@@ -65,6 +67,42 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
+      "server": "82.38.64.237",
+      "server_port": 8443,
+      "password": "we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH",
+      "tls": {
+        "enabled": true,
+        "server_name": "hopp-swizland-new.mysynology.net",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
+      "server": "31.76.104.152",
+      "server_port": 9443,
+      "password": "e3c3b722-1264-4cdc-a97c-b0a1bb73cd67",
+      "tls": {
+        "enabled": true,
+        "server_name": "onecloudstream.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 07 - xiaohe",
+      "server": "77.110.104.238",
+      "server_port": 443,
+      "password": "5413edfb-08d6-4fba-b51c-809c04feb127",
+      "tls": {
+        "enabled": true,
+        "server_name": "ch2-hy2.veilvpn.life",
+        "insecure": true
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -72,7 +110,10 @@
         "🇨🇭 瑞士 (Switzerland) 01 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 02 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 04 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 04 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 07 - xiaohe"
       ]
     },
     {
@@ -82,7 +123,10 @@
         "🇨🇭 瑞士 (Switzerland) 01 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 02 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 04 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 04 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
