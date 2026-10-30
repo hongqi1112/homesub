@@ -18,20 +18,18 @@ proxies:
   servername: www.bing.com
   client-fingerprint: chrome
 - name: 🇺🇦 乌克兰 (Ukraine) 02 - xiaohe
-  server: 45.158.185.172
+  server: 104.253.216.227
   port: 443
   udp: true
   type: vless
-  uuid: 698b212d-ca12-4794-8256-252a6e1b4533
+  uuid: 2ba7f500-017b-4891-87a0-e4e62a4ad52d
+  flow: xtls-rprx-vision
   tls: true
-  servername: z5n1.vpnpolar.online
-  skip-cert-verify: false
+  reality-opts:
+    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
+    short-id: 9409f73c2fd7
+  servername: www.microsoft.com
   client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /beeline
-    headers:
-      Host: z5n1.vpnpolar.online
 proxy-groups:
 - name: PROXIES
   type: select

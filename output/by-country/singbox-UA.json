@@ -27,23 +27,21 @@
     {
       "type": "vless",
       "tag": "🇺🇦 乌克兰 (Ukraine) 02 - xiaohe",
-      "server": "45.158.185.172",
+      "server": "104.253.216.227",
       "server_port": 443,
-      "uuid": "698b212d-ca12-4794-8256-252a6e1b4533",
+      "uuid": "2ba7f500-017b-4891-87a0-e4e62a4ad52d",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "z5n1.vpnpolar.online",
-        "insecure": false,
+        "server_name": "www.microsoft.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/beeline",
-        "headers": {
-          "Host": "z5n1.vpnpolar.online"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg",
+          "short_id": "9409f73c2fd7"
         }
       }
     },
