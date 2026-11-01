@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe
-  server: 5.252.179.15
-  port: 443
+- name: 🇸🇮 斯洛文尼亚 (Slovenia) 01 - xiaohe
+  server: 92.42.201.65
+  port: 4443
   udp: true
   type: vless
-  uuid: 0ab273e4-cea6-41d0-bbab-41071d2fc455
+  uuid: e0134f1c-8b74-4733-9c34-50cb251480c2
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: XQB2zIgrhD8AtxgYFM8UiiWYt1sLVBLhMg1M4-sGMAY
-    short-id: 296f27de82dad7ff
-  servername: www.bing.com
+    public-key: CTiiN_SriTUj-eBv0047HpCWgLtAzWzq-gwvIWN9KUI
+    short-id: 7f0275a4db6068fb
+  servername: node-slo03.rkitman.ru
   client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe
+  - 🇸🇮 斯洛文尼亚 (Slovenia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe
+  - 🇸🇮 斯洛文尼亚 (Slovenia) 01 - xiaohe
 rules:
 - MATCH,PROXIES
