@@ -5,56 +5,30 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe
-  server: 31.77.236.113
+  server: 38.244.155.67
   port: 443
   udp: true
   type: vless
-  uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
+  uuid: d651c9ab-b844-4420-b3d0-20d201ef5f55
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
-    short-id: 1a2b3c4d
-  servername: files.porsche.com
-  client-fingerprint: firefox
-- name: 🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe
-  server: 163.245.52.17
-  port: 443
-  udp: true
-  type: vless
-  uuid: 43a26f1a-99b7-4b17-98c7-b836fb466999
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: RO5YMxxtJmZo2w370qG-seJ41toowHPbz6i2uXJ2gG0
-    short-id: 7a3f9e2b1c8d4f6a
-  servername: ee.frgcdn.xyz
-  client-fingerprint: firefox
-- name: 🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe
-  server: ee.frgcdn.xyz
-  port: 443
-  udp: true
-  type: vless
-  uuid: 43a26f1a-99b7-4b17-98c7-b836fb466999
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: RO5YMxxtJmZo2w370qG-seJ41toowHPbz6i2uXJ2gG0
-    short-id: 7a3f9e2b1c8d4f6a
-  servername: ee.frgcdn.xyz
+    public-key: NLXltMEkWIxv9bL2J4XkPGb4oVwGbCkITCTXF-jVxAE
+    short-id: 2976f793571fb671
+  servername: node-eu-1.nztpro.com
   client-fingerprint: chrome
-- name: 🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe
-  server: 147.45.245.17
+- name: 🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe
+  server: ee.subv.ru
   port: 443
   udp: true
   type: vless
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 4GpOXPkTdvuF1mgBH6n9AFYRvGEh7K2ETgE8asmNASY
-    short-id: 38146bd64aece7a5
-  servername: defs-64.topp-con.xyz
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a32
+  servername: dvizhok.su
   client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
@@ -63,8 +37,6 @@ proxy-groups:
   - AUTO
   - 🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe
   - 🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe
-  - 🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe
-  - 🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -72,7 +44,5 @@ proxy-groups:
   proxies:
   - 🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe
   - 🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe
-  - 🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe
-  - 🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -4,25 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe
-  server: 130.94.19.95
-  port: 57277
+- name: 🇳🇬 尼日利亚 (Nigeria) 01 - xiaohe
+  server: sclass-01.catcat321.com
+  port: 20103
   udp: true
   type: trojan
-  password: 5t6i121em5lkmsmk
-  sni: us001.zestapp778.com
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  sni: hk.catxstar.com
   skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe
+  - 🇳🇬 尼日利亚 (Nigeria) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe
+  - 🇳🇬 尼日利亚 (Nigeria) 01 - xiaohe
 rules:
 - MATCH,PROXIES

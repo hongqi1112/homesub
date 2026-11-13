@@ -18,32 +18,17 @@ proxies:
   servername: gateway.icloud.com
   client-fingerprint: chrome
 - name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: 104.19.235.15
+  server: 153.52.69.249
   port: 443
   udp: true
   type: vless
-  uuid: f27b6f65-6e59-4f89-b929-afa397ca587f
-  tls: true
-  servername: n.bitpulse.me
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /019bcbad-3813-7cce-8786-3ac0e418f128
-    headers:
-      Host: n.bitpulse.me
-- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
-  server: server.slavkiti.monster
-  port: 443
-  udp: true
-  type: vless
-  uuid: 1896c6c9-a941-4688-a865-29027bf7f8e6
+  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: 6c825bc79850
-  servername: www.microsoft.com
+    public-key: WVfpQqoeOrTtCq052_IOxvMv7RCWfLlAOxEfsH1aa2U
+    short-id: d5492c7a39515c65
+  servername: cache-78.topp-con.xyz
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
@@ -52,7 +37,6 @@ proxy-groups:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
-  - 🇨🇿 捷克 (Czech) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -60,6 +44,5 @@ proxy-groups:
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
-  - 🇨🇿 捷克 (Czech) 03 - xiaohe
 rules:
 - MATCH,PROXIES
