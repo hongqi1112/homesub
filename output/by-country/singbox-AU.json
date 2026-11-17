@@ -12,35 +12,18 @@
       "tls": {
         "enabled": true,
         "server_name": "45.63.30.142",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-      "server": "v1au.mateflora.com",
-      "server_port": 443,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
+        "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo",
-          "short_id": "54cca3c1c1c7"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
-      "server": "zfapi.zalolink.com",
-      "server_port": 54528,
+      "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
+      "server": "176.97.68.100",
+      "server_port": 443,
       "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -58,13 +41,56 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
+      "server": "195.114.14.91",
+      "server_port": 443,
+      "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "au1.gofizz.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "CcxdRFcNF4OLIFqS999iAHZSa6dsFB6wuhyKlBr45DI",
+          "short_id": "7d9e4e85e6f9"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇺 澳大利亚 (Australia) 04 - xiaohe",
+      "server": "43.255.157.53",
+      "server_port": 48158,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo",
+          "short_id": "54cca3c1c1c7"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 03 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
+        "🇦🇺 澳大利亚 (Australia) 04 - xiaohe"
       ]
     },
     {
@@ -73,7 +99,8 @@
       "outbounds": [
         "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 03 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
+        "🇦🇺 澳大利亚 (Australia) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
