@@ -5,18 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 212.102.38.25
+  server: 109.248.17.252
   port: 443
   udp: true
   type: vless
-  uuid: b34a52cb-cd52-49a8-9362-b8e97c151d49
-  flow: xtls-rprx-vision
+  uuid: 9000a7f3-df2a-49a8-ae56-3e7777bd32f7
   tls: true
-  reality-opts:
-    public-key: 23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE
-    short-id: e90360ec7cc61b20
-  servername: udemy.com
-  client-fingerprint: ios
+  servername: v4.clequinix.globalinetforallalwaysandneverbanyoubelieveme.com
+  skip-cert-verify: false
+  network: grpc
+  grpc-opts:
+    grpc-service-name: v4-clequinix-globalinetforallalwaysandneverbanyoubelieveme-com
 proxy-groups:
 - name: PROXIES
   type: select
